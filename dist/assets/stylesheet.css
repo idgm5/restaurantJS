@@ -49,6 +49,7 @@ ul > li {
   line-height: 1;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 h1 {
