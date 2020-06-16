@@ -1,5 +1,6 @@
 var _ = require('lodash');
 import menu from './menu.js';
+import about from './about.js';
 
 //navbar
 const div = document.getElementById('content');
@@ -44,11 +45,7 @@ navListAbout.addEventListener("click", () => {
   document.getElementById('navListContact').classList.remove("select-item");
   item.setAttribute("class", "select-item")
   document.getElementById('mainContent').innerHTML = "";
-  const divClick = document.createElement('DIV');
-  const para = document.createElement('P');
-  para.innerHTML = "About clicked";
-  divClick.appendChild(para);
-  divMain.appendChild(divClick);
+  about();
 });
 
 navListContact.addEventListener("click", () => {
