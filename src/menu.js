@@ -1,6 +1,6 @@
 const menu = () => {
   // Menu elements
-  const div = document.getElementById("content");
+  const div = document.getElementById("mainContent");
   const divMenu = document.createElement("DIV");
   const para = document.createElement("P");
   const h2 = document.createElement("H2");
