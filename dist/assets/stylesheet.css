@@ -3,9 +3,20 @@
   padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 body {
   display: flex;
   justify-content: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 2rem;
 }
 
 p {
@@ -167,6 +178,7 @@ h3 {
 
 .contact-collection {
   display: flex;
+  margin: 1rem;
 }
 
 .contact-collection:not(:last-child){

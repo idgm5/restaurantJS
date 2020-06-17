@@ -2,6 +2,7 @@ var _ = require('lodash');
 import menu from './menu.js';
 import about from './about.js';
 import contact from './contact.js';
+import footer from './footer.js';
 
 //navbar
 const div = document.getElementById('content');
@@ -38,6 +39,7 @@ navListMenu.addEventListener("click", () => {
   item.setAttribute("class", "select-item")
   document.getElementById('mainContent').innerHTML = "";
   menu();
+  footer();
 });
 
 navListAbout.addEventListener("click", () => {
@@ -56,7 +58,9 @@ navListContact.addEventListener("click", () => {
   item.setAttribute("class", "select-item")
   document.getElementById('mainContent').innerHTML = "";
   contact();
+  footer();
 });
 
 navListMenu.setAttribute("class", "select-item");
 menu();
+footer();
