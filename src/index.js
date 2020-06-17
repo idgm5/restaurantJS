@@ -60,3 +60,6 @@ navListContact.addEventListener("click", () => {
   divClick.appendChild(para);
   divMain.appendChild(divClick);
 });
+
+navListMenu.setAttribute("class", "select-item");
+menu();
