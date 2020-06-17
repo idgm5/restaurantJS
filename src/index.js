@@ -3,8 +3,6 @@ import about from './about';
 import contact from './contact';
 import footer from './footer';
 
-const _ = require('lodash');
-
 // navbar
 const div = document.getElementById('content');
 const divMain = document.createElement('DIV');
